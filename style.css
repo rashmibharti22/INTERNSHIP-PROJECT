@@ -232,3 +232,35 @@ input {
   position: relative;left: 5rem;top:3rem;
   border-radius: 2rem;
 }
+.container{
+  background-color: #fff;
+  padding: 20px;
+  width: 700px; 
+  height: 70px;
+  border-radius: 2rem;
+   box-shadow: rgba(50 ,50,93,0.25)0px 6px 12px -2px;
+   position: relative;left: 5rem;top: 3rem;
+
+}
+.session1{
+    background-color: #fff;
+  padding: 20px;
+  width: 600px; 
+  height: 350px;
+  border-radius: 2rem;
+   box-shadow: rgba(50 ,50,93,0.25)0px 6px 12px -2px;
+   position: relative;
+  left: 8rem;
+   top: 3rem;
+}
+.session2{
+    background-color: #fff;
+  padding: 20px;
+  width: 600px; 
+  height: 350px;
+  border-radius: 2rem;
+   box-shadow: rgba(50 ,50,93,0.25)0px 6px 12px -2px;
+   position: relative;
+  left: 50rem;
+   bottom: 21rem;
+}

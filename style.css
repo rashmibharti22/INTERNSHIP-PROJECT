@@ -280,6 +280,7 @@ input {
   display: flex;
   flex-direction: row;
   gap: 50px;
+  padding-top: 50px;
 }
 #pics{
   height: 300px;

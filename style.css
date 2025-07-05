@@ -7,13 +7,16 @@ body {
 }
 
 header {
-  background: rgb(221, 237, 5);
+  background: #fff;
   color: rgb(0, 0, 139);
   padding: 15px;
   text-align: center;
   margin-top: 0px;
   height: 360px;
-
+ background-image: url(hhhhh.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
 }
 
 .lg {
@@ -25,30 +28,30 @@ header {
 
 #l1 {
   padding-left: 15px;
-  height: 200px;
+  height: 150px;
   width: 200px;
 }
 
 #l2 {
-  height: 200px;
+  height: 150px;
   width: 250px;
-  margin-top: 30px;
+  margin-top: 25px;
 
 
 }
 
 #l3 {
-  height: 200px;
+  height: 150px;
   width: 200px;
 }
 
 #l4 {
-  height: 200px;
+  height: 150px;
   width: 200px;
 }
 
 #l5 {
-  height: 200px;
+  height: 180px;
   width: 200px;
 }
 
@@ -132,6 +135,7 @@ button {
 #text1 {
   color: #f0f0f0;
   justify-content: center;
+  font-size: 25px;
 
 }
 
@@ -139,35 +143,31 @@ button {
   color: #f0f0f0;
   justify-content: center;
   padding-left: 25px;
+  font-size: 25px;
 
 }
 
 #totalEnrolled {
   color: white;
   padding-right: 20px;
-  padding-top: 14px;
+  padding-top: 21px;
   padding-left: 3px;
-  font-size: 33px;
+  font-size: 30px;
 }
 
 #totalPlaced {
   color: white;
-  padding-top: 14px;
+  padding-top: 22px;
   justify-content: center;
   padding-left: 3px;
-  font-size: 33px;
+  font-size: 30px;
 }
-
-#about {
-  color: white;
-  background-color: rgb(0, 0, 139);
-  width: 330px;
-  padding: 5px;
-  margin-bottom: 50px;
-}
-
 #abouttext {
-  color: black;
+  color: white;
+  background-color:rgb(52, 98, 191);
+  border-radius: 5px;
+  padding-left: 35px;
+  padding-top: 25px;
 }
 
 #registerBtn {
@@ -216,7 +216,7 @@ input {
 }
 
 #head {
-  height: 250px;
+  height: 350px;
 
 }
 
@@ -253,6 +253,18 @@ input {
   top: 3rem;
 
 }
+.info{
+  display: flex;
+  flex-direction: row;
+   height: 150px;
+  width: 700px;
+  background-color: #fff;
+  box-shadow: rgb(50, 50, 93, 0.25)0px 6px 12px -2px;
+  position: relative;
+  left: 5rem;
+
+  border-radius: 2rem;
+}
 
 .session1 {
   background-color:#fff;
@@ -287,5 +299,5 @@ input {
   display: flex;
   flex-direction: row;
   gap: 50px;
-  padding-top: 100px;
+  padding-top: 20px;
 }

@@ -2,13 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: white;
+  background:#f0f2f5;
 
 }
 
 header {
   background: rgb(221, 237, 5);
-  color:rgb(0, 0, 139);
+  color: rgb(0, 0, 139);
   padding: 15px;
   text-align: center;
   margin-top: 0px;
@@ -24,31 +24,32 @@ header {
 }
 
 #l1 {
-  height: 350px;
-  width: 300px;
+  padding-left: 15px;
+  height: 200px;
+  width: 200px;
 }
 
 #l2 {
-  height: 300px;
-  width: 350px;
+  height: 200px;
+  width: 250px;
   margin-top: 30px;
 
 
 }
 
 #l3 {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 }
 
 #l4 {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 }
 
 #l5 {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 }
 
 header img {
@@ -98,11 +99,7 @@ main {
   gap: 20px;
 }
 
-.company {
-  background: white;
-  padding: 15px;
-  border-radius: 8px;
-}
+
 
 button {
   background: #007bff;
@@ -133,13 +130,13 @@ button {
 }
 
 #text1 {
-  color: #e9e464;
+  color: #f0f0f0;
   justify-content: center;
 
 }
 
 #text2 {
-  color: #e9e464;
+  color: #f0f0f0;
   justify-content: center;
   padding-left: 25px;
 
@@ -148,22 +145,22 @@ button {
 #totalEnrolled {
   color: white;
   padding-right: 20px;
-  padding-top: 10px;
-  padding-left: 2px;
-  font-size: 38px;
+  padding-top: 14px;
+  padding-left: 3px;
+  font-size: 33px;
 }
 
 #totalPlaced {
   color: white;
-  padding-top: 11px;
+  padding-top: 14px;
   justify-content: center;
-  padding-left: 2px;
-font-size: 38px;
+  padding-left: 3px;
+  font-size: 33px;
 }
 
 #about {
-  color: #f0f2f5;
-  background-color: #1672a7;
+  color: white;
+  background-color: rgb(0, 0, 139);
   width: 330px;
   padding: 5px;
   margin-bottom: 50px;
@@ -180,7 +177,7 @@ font-size: 38px;
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
-  
+
 }
 
 input {
@@ -200,67 +197,94 @@ input {
   margin-top: 15px;
   font-weight: bold;
 }
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 80px 0px;
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0px;
 }
-.contact div{
-    display: flex;
+
+.contact div {
+  display: flex;
 }
-.contact a img{
-    width: 30px;
-    margin: 15px;
+
+.contact a img {
+  width: 30px;
+  margin: 15px;
 }
-#head{
+
+#head {
   height: 250px;
 
 }
-#n1{
+
+#n1 {
   justify-content: center;
   padding-top: 20px;
   font-size: 50px;
   font-weight: bolder;
 }
-.company{
+
+.company {
   height: 150px;
   width: 700px;
   background-color: #fff;
-  box-shadow: rgb( 50,50,93,0.25)0px 6px 12px -2px;
-  position: relative;left: 5rem;top:3rem;
+  box-shadow: rgb(50, 50, 93, 0.25)0px 6px 12px -2px;
+  position: relative;
+  left: 5rem;
+  top: 3rem;
   border-radius: 2rem;
+   background: white;
+  padding: 15px;
+  border-radius: 8px;
 }
-.container{
+
+.container {
   background-color: #fff;
   padding: 20px;
-  width: 700px; 
+  width: 700px;
   height: 70px;
   border-radius: 2rem;
-   box-shadow: rgba(50 ,50,93,0.25)0px 6px 12px -2px;
-   position: relative;left: 5rem;top: 3rem;
+  box-shadow: rgba(50, 50, 93, 0.25)0px 6px 12px -2px;
+  position: relative;
+  left: 5rem;
+  top: 3rem;
 
 }
-.session1{
-    background-color: #fff;
+
+.session1 {
+  background-color:#fff;
   padding: 20px;
-  width: 600px; 
+  width: 600px;
   height: 350px;
   border-radius: 2rem;
-   box-shadow: rgba(50 ,50,93,0.25)0px 6px 12px -2px;
-   position: relative;
-  left: 8rem;
-   top: 3rem;
+  box-shadow: rgba(50, 50, 93, 0.25)0px 6px 12px -2px;
 }
-.session2{
-    background-color: #fff;
+
+.session2 {
+  background-color: #fff;
   padding: 20px;
-  width: 600px; 
+  width: 600px;
   height: 350px;
   border-radius: 2rem;
-   box-shadow: rgba(50 ,50,93,0.25)0px 6px 12px -2px;
-   position: relative;
-  left: 50rem;
-   bottom: 21rem;
+  box-shadow: rgba(50, 50, 93, 0.25)0px 6px 12px -2px;
+}
+#data{
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+.placement-overview {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+#pics{
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-top: 100px;
 }

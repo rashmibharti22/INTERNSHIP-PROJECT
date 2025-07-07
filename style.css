@@ -23,7 +23,9 @@ header {
   display: flex;
   flex-direction: row;
   padding-top: 20px;
-
+  padding-left: 50px;
+justify-content: center;
+padding-right: 50px;
 }
 
 #l1 {
@@ -168,6 +170,7 @@ button {
   border-radius: 5px;
   padding-left: 35px;
   padding-top: 25px;
+  padding-right: 35px;
 }
 
 #registerBtn {
